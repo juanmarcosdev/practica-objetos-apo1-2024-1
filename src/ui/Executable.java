@@ -7,18 +7,42 @@ import java.util.Scanner;
 
 public class Executable {
     private Scanner reader;
+	
 
     public void run() {
         // Crear una instancia de Person
-        Person person = new Person("John", 30);
+        // Person person = new Person("John", 30);
+		
+		// reader = new Scanner(System.in);
+		
+		// String marcaUsuario;
+		// String modeloUsuario;
+		// int anhoUsuario;
+		
+		// System.out.println("Ingrese marca");
+		
+		// marcaUsuario = reader.nextLine();
+		
+		// System.out.println("Ingrese modelo");
+	
+		
+		// modeloUsuario = reader.nextLine();
+		
+		// System.out.println("Ingrese anho");
+		
 
-        // Crear una instancia de Car
-        Car car = new Car("Toyota", "Camry", 2020);
+		// anhoUsuario = reader.nextInt();
+		
+		
+		// Car carroUsuario = new Car(marcaUsuario, modeloUsuario, anhoUsuario);
+		
+		// carroUsuario.printDetails();
+		
+		Person musul = new Person("Sebastian Castillo", 18);
+		
+		System.out.println(musul.getAge());
 
-        // Imprimir detalles de la persona y del coche
-        person.printDetails();
-        System.out.println();
-        car.printDetails();
+
     }
 
     /**
